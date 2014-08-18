@@ -95,7 +95,7 @@ function PrintStoryCards(rallyDataSource) {
                         '<span class="estimate">' + estimate + '</span>' +
                         '</div>';
 
-        if (currentCardNumber !== totalCards && currentCardNumber % 4 === 0) {
+        if (currentCardNumber !== totalCards && currentCardNumber % 6 === 0) {
             theMarkup = theMarkup + '<div class=pb></div>';
         }
 
